@@ -3,7 +3,7 @@ import re
 
 def main():
   sum = 0
-  with open("p1_input", 'r') as file:
+  with open("d1_input", 'r') as file:
     lines = file.readlines()
   for line in lines:
     if line[0] == '+':
