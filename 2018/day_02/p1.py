@@ -7,7 +7,6 @@ def main():
   with open("d2_input", 'r') as file:
     lines = file.readlines()
   for line in lines:
-    import collections
     letterfreq = collections.Counter(line)
     letterinfo=sorted(dict(letterfreq).values(), reverse=True)
     if(2 in letterinfo):
